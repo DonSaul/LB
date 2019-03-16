@@ -59,7 +59,7 @@ int main()
   }
   
 
-    file.open("C:\\Users\\chlx9\\Documents\\fortran\\LBC\\resultcpp.txt");//adentro de open va la ruta del archivo separas carpetas con "\\"
+    file.open("~\\home\\saul\\Documentos\\Kriket\\LB\\D1Q2\\resultcpp.txt");//adentro de open va la ruta del archivo separas carpetas con "\\"
     if (!file) {//comprobar si el archivo se puede abrir
         cout << "archivo no disponible";
         exit(1); // salir de la comprobación con error
